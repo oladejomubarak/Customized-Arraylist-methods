@@ -24,5 +24,8 @@ public class CustomizedArrayListTest {
 
       assertEquals(array[0]= 2,addElementToArray);
    }
-
+@Test void testThatElementCanBeDeleted(){
+        customizedArraylist.add(array, 2);
+        assertEquals(0, customizedArraylist.remove(0));
+}
 }

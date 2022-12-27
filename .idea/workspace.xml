@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e2dfcb3-a8d8-489c-89d7-be3b7af03cc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customisedArrayList.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomizedArraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomizedArraylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CustomizedArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CustomizedArrayListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +40,11 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CustomizedArrayListTest.testAddMethod">
+  <component name="RunManager" selected="JUnit.CustomizedArrayListTest.testThatElementCanBeDeleted">
     <configuration name="CustomizedArrayListTest.setUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="customisedArrayList" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,8 +75,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomizedArrayListTest.testThatElementCanBeDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="customisedArrayList" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomizedArrayListTest" />
+      <option name="METHOD_NAME" value="testThatElementCanBeDeleted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomizedArrayListTest.testThatElementCanBeDeleted" />
         <item itemvalue="JUnit.CustomizedArrayListTest.testAddMethod" />
         <item itemvalue="JUnit.CustomizedArrayListTest.testThatClassExist" />
         <item itemvalue="JUnit.CustomizedArrayListTest.setUp" />
@@ -93,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671972009686</updated>
-      <workItem from="1671972012298" duration="13332000" />
+      <workItem from="1671972012298" duration="17302000" />
     </task>
     <servers />
   </component>

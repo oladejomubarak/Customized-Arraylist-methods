@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.lang.reflect.Array;
 
 public class CustomizedArraylist {
     private static int[] array = new int[15];
@@ -28,5 +27,12 @@ public class CustomizedArraylist {
 //            arrayIndex++;
 //        }
 //    }
-
+public int remove(int index){
+    for (index = 0; index < array.length; index++) {
+        array[index] = 0;
+        break;
+    }
+    arrayIndex--;
+    return array[index];
+}
 }
